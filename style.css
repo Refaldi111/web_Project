@@ -1,21 +1,24 @@
-body {
-    margin: 0;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+table{
+    border-collapse: collapse;
+    width: 100%;
+    color: aliceblue;
+    cursor: pointer;
 }
 
+th, td{
+    border: 1px solid rgb(27, 0, 63);
+    padding: 8px;
+    text-align: center;
+}
+
+th{
+    background-color: black;
+}
+
+td{
+    background-color: black;
+    color: rgb(245, 245, 245);
+}
 h1{
     text-align: center;
-    font-weight: bold;
-}
-img{
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-p { 
-    text-align: justify;
 }
