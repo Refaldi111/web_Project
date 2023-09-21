@@ -1,24 +1,75 @@
-table{
-    border-collapse: collapse;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
     width: 100%;
-    color: aliceblue;
+    height: 100vh;
+    background: rgb(167, 167, 167);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 70px;
     cursor: pointer;
 }
-
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s;
+}
+.navbar ul li a:hover{
+    color: aqua;
+}
+table{
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 1px solid #000;
+}
 th, td{
-    border: 1px solid rgb(27, 0, 63);
-    padding: 8px;
-    text-align: center;
+    padding: 10px;
 }
-
 th{
-    background-color: black;
+    background-color: #4caf50;
+    color: #fff;
 }
-
-td{
-    background-color: black;
-    color: rgb(245, 245, 245);
+.content{
+    background-color: rgb(176, 108, 240);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(red, green, blue, alpha);
 }
-h1{
+h1, h2{
     text-align: center;
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+table, th, td{
+    border: 1px solid black;
+}
+caption{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }
