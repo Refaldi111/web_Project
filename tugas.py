@@ -1,0 +1,6 @@
+ASEAN = ("indonesia", "malaysia", "sngapore", "thailad", "myanmar", "laos", "filippina")
+ASEAN_list = list(ASEAN)
+print(ASEAN_list)
+ASEAN_list.append("brunnnei darussalam")
+print(ASEAN_list)
+print(len(ASEAN_list))
